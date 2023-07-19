@@ -6,7 +6,7 @@ const route = [
     {
         name : "Login",
         path : "/",
-        component : Login
+        component : Login   
         //component: () => import(/* webpackChunkName: "public" */ '@/pages/Login.vue')
     },
     {
