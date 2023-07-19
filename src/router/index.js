@@ -13,6 +13,11 @@ const route = [
         name:"Accueil",
         path : "/Accueil",
         component: () => import(/* webpackChunkName: "Accueil" */ '@/pages/Accueil.vue')
+    },
+    {
+        name:"Signup",
+        path : "/Signup",
+        component: () => import(/* webpackChunkName: "Signup" */ '@/pages/Signup.vue')
     }
     
 ]
