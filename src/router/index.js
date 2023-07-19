@@ -18,7 +18,6 @@ const route = [
 ]
 
 const router = createRouter({
-    tgt
     history:createWebHashHistory(),
     route
 })
